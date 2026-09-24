@@ -27,9 +27,11 @@ proves it against an adversarial fixture.
 
 ## Demo evidence
 
+- Public repo (submission package):
+  https://github.com/ZeroZen270/mermail-bounty-watchtower
 - Recording (GIF, terminal-style, watermarked SIMULATED):
-  https://muse.ai/files/1391727530680969/1400014292334751/b8meohgc9k24gqobbp3dl18h/demo.gif
-  (link expires 2026-09-26 — re-upload to YouTube/X/Streamable for a permanent link)
+  https://raw.githubusercontent.com/ZeroZen270/mermail-bounty-watchtower/main/skills/mermail-bounty-watchtower/demo/demo.gif
+  (permanent — served from the public repo)
 - What it shows: triage parsing 3 fixture emails (title/prize/deadline/
   requirements extracted), 3 prompt-injection attempts quarantined into
   SECURITY_NOTES with no action taken, then the watchtower digest ranking 3
@@ -47,11 +49,11 @@ proves it against an adversarial fixture.
 > Mailbox access is read + label-only — it never sends mail — and all email
 > content is treated as untrusted data per the included security contract.
 >
-> Demo: [demo.gif link] (terminal recording; simulated fixture data — no
+> Demo: https://raw.githubusercontent.com/ZeroZen270/mermail-bounty-watchtower/main/skills/mermail-bounty-watchtower/demo/demo.gif (terminal recording; simulated fixture data — no
 > Mermail API key was available in my build environment, so the run uses
 > local fixture emails, including one adversarial fixture whose
 > prompt-injection attack is quarantined with no action taken).
-> Skill spec: SKILL.md follows the official template frontmatter; ships with
+> Repo: https://github.com/ZeroZen270/mermail-bounty-watchtower — SKILL.md follows the official template frontmatter; ships with
 > references/tools.md, references/security.md, references/workflows.md,
 > deterministic scripts/triage.py + scripts/watch.py, agents/openai.yaml,
 > and a reproducible demo/run_demo.py.
